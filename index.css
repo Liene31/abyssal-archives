@@ -31,16 +31,17 @@ h1 {
 
 h2 {
   font-family: "Cinzel Decorative", serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #222831;
   font-weight: 900;
 }
 
 article p {
   text-shadow: 1px 1px 0px black;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: #e0f7fa;
   line-height: 1.5;
+  margin-top: 0.4em;
 }
 
 .footer {
@@ -137,7 +138,7 @@ footer {
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 800px) {
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
